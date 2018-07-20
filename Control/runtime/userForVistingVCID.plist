@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TableViewController</key>
+	<dict>
+		<key>ControlEventIDs</key>
+		<dict>
+			<key>shareBtnPressed:</key>
+			<string>CTRL_EVENT_TABLE_SHARE</string>
+			<key>onFavBtnPressed:</key>
+			<string>CTRL_EVENT_TABLE_FAV</string>
+		</dict>
+		<key>PageEventIDs</key>
+		<dict>
+			<key>Enter</key>
+			<string>PAGE_EVENT_TABLE_ENTER</string>
+			<key>Leave</key>
+			<string>PAGE_EVENT_TABLE_LEAVE</string>
+		</dict>
+	</dict>
+	<key>ZXRunLoopVC</key>
+	<dict>
+		<key>ControlEventIDs</key>
+		<dict>
+			<key>preMove</key>
+			<string>CTRL_EVENT_RUN_PREMOVE</string>
+		</dict>
+		<key>PageEventIDs</key>
+		<dict>
+			<key>Enter</key>
+			<string>PAGE_EVENT_RUNLOOP_ENTER</string>
+			<key>Leave</key>
+			<string>PAGE_EVENT_RUNLOOP_LEAVE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

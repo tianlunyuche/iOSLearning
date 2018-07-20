@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Control
+//
+//  Created by xinying on 2016/5/17.
+//  Copyright © 2016年 paohon. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#include "ZXMacro.h"
+#include "ZXtoast.h"
+#import "NSData+MD5.h"
+
+//打印调试
+#ifdef DEBUG
+
+#define ZXLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define ZXLog(...)
+#endif
+
+#endif /* PrefixHeader_pch */
