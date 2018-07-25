@@ -12,7 +12,7 @@
 
 @interface ZXDesignModeTableVC ()
 
-@property(nonatomic,strong)NSMutableArray *titleArrays;
+//@property(nonatomic,strong)NSMutableArray *titleArrays;
 @end
 
 @implementation ZXDesignModeTableVC
@@ -34,12 +34,12 @@
     [self createSubView];
 }
 
-- (NSMutableArray *)titleArrays{
-    if (!_titleArrays) {
-         _titleArrays =[[self tableTitles] mutableCopy];
-    }
-    return _titleArrays;
-}
+//- (NSMutableArray *)titleArrays{
+//    if (!_titleArrays) {
+//         _titleArrays =[[self tableTitles] mutableCopy];
+//    }
+//    return _titleArrays;
+//}
 
 - (void)setEditing:(BOOL)editing animated:(BOOL)animated{
 
@@ -52,7 +52,8 @@
         for (NSIndexPath *path in selectRows) {
 //            [indexpaths addIndex:path.row];
 //            [sec addIndex:path.section];
-            [self.titleArrays[path.section] removeObjectAtIndex:path.row];
+            
+//            [self.tableTitles[path.section] removeObjectAtIndex:path.row];
         }
 
 //        NSIndexSet *sec3 =[sec copy];
@@ -94,7 +95,7 @@
             
             [self.navigationController pushViewController:[[ZXFlyWeightVC alloc] init] animated:YES];
         }
-        if ((indexPath.section == 0 )&& (indexPath.row == 1)) {
+        if ((indexPath.section == 1 )&& (indexPath.row == 0)) {
             
             [self.navigationController pushViewController:[[ZXDecorativeVC alloc] init] animated:YES];
             
@@ -122,12 +123,13 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
-    return self.titleArrays.count;
-}
+    return self.tableTitles.count;
+
+    }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return [self.titleArrays[section] count];
+    return [self.tableTitles[section] count];
 }
 
 #pragma mark - data
