@@ -58,8 +58,8 @@
     [self.view addSubview:self.contentView];
     
     [self insertData];
-    self.contentView.nickNameTextField.text=@"小狗";
-    self.contentView.card_idTextField.text =@"40";
+//    self.contentView.nickNameTextField.text=@"小狗";
+//    self.contentView.card_idTextField.text =@"40";
     [self insertData];
     [self updateData];
     [self insertData];

@@ -16,6 +16,7 @@
 #import "肆ViewController.h"
 #import "伍ViewController.h"
 
+
 @interface MainTabBarViewController ()<UITabBarControllerDelegate>
 
 @property(nonatomic, strong)UIPanGestureRecognizer *panGestureRecognizer;
@@ -26,7 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     self.delegate = self;
     self.selectedIndex = 0;
     self.view.backgroundColor =[UIColor grayColor];

@@ -1,9 +1,10 @@
-#use_frameworks!
+
 
 target 'Control' do
+use_frameworks!
 #
 #    pod 'ReactiveCocoa'
-    pod 'ReactiveObjC'
+#    pod 'ReactiveObjC'
     pod 'FMDB'
     pod 'Masonry'
     pod 'MJRefresh', '~> 3.1.12’
@@ -14,6 +15,9 @@ target 'Control' do
     pod 'SDCycleScrollView','~> 1.64'
     pod 'SDWebImage'
     pod 'TNRadioButtonGroup'
+    pod 'Zhugeio'
+    pod 'Alamofire'
+    pod 'HandyJSON'
 #    pod 'React'
 #    pod "React/RCTText"
 #    pod "React/RCTActionSheet"

@@ -1,0 +1,140 @@
+{
+    actor = 0;
+    "borough_id" = 2367;
+    "city_id" = 1495;
+    className = "\U52b1\U5fd7\U5b66\U6821 \U521d\U4e8c\U4fca\U9f99\U73ed";
+    "class_id" = 39785;
+    createtimes = 1517293710;
+    credit = 12;
+    dob = 0;
+    email = "";
+    first = 2;
+    gender = man;
+    grade = 12;
+    group =     (
+                 c39785,
+                 g47848
+                 );
+    "is_bao" = 0;
+    "is_vip" = 1;
+    lasttimes = 1533289664;
+    level =     {
+        "current_level_experience" = 0;
+        "current_level_get_experience" = 6;
+        id = 3950638;
+        lasttime = 1517335977;
+        level = 1;
+        "next_level_need_experience" = 50;
+        title = "\U9b54\U6cd5\U5b66\U5f92";
+        "title_type" = 1;
+        total = 6;
+        "up_level" = 0;
+        "users_uid" = 4033709;
+    };
+    logo = "http://api.ekwing.com/resource/api/images/userlogo/student60.jpg";
+    "logo_130" = "http://api.ekwing.com/resource/api/images/userlogo/student130.jpg";
+    "logo_40" = "http://api.ekwing.com/resource/api/images/userlogo/student40.jpg";
+    "logo_60" = "http://api.ekwing.com/resource/api/images/userlogo/student60.jpg";
+    "method_from" = 0;
+    nicename = "\U5feb\U4e50\U5341\U4e00";
+    pname = "";
+    "province_id" = 107;
+    ptel = 18567688703;
+    ptype = 1;
+    "school_id" = 4638;
+    section = 2;
+    "student_no" = "";
+    tel = "";
+    times = 1517293710;
+    type = 2;
+    uid = 4033709;
+    "user_growth_counter" =     {
+        "user_credit" = 12;
+        "user_experience" = 6;
+        "user_hongbao" = 0;
+    };
+    username = 10279477;
+    verify = 0;
+    "vip_power" =     {
+        power =         {
+            "vip_power_answer" = 1629712422;
+            "vip_power_comm" = 1629712422;
+            "vip_power_yixueyuan" = 1629712422;
+            "vip_power_yuyin" = 1629712422;
+        };
+        "users_uid" = 4033709;
+        "vip_type" = "is_vip";
+    };
+    "vip_status" = 1;
+},
+
+
+{
+    actor = 0;
+    "borough_id" = 2367;
+    "city_id" = 1495;
+    className = " \U4f5c\U8bad\U80031\U73ed";
+    "class_id" = 80380;
+    createtimes = 1528710429;
+    credit = 10;
+    dob = 0;
+    email = "";
+    first = 1;
+    gender = man;
+    grade = 23;
+    group =     (
+                 c80380,
+                 g102568
+                 );
+    "is_bao" = 0;
+    "is_vip" = 0;
+    lasttimes = 1529043834;
+    level =     {
+        "current_level_experience" = 0;
+        "current_level_get_experience" = 0;
+        id = 4415556;
+        lasttime = 1528742587;
+        level = 1;
+        "next_level_need_experience" = 50;
+        title = "\U9b54\U6cd5\U5b66\U5f92";
+        "title_type" = 1;
+        total = 0;
+        "up_level" = 0;
+        "users_uid" = 4427442;
+    };
+    logo = "http://api.ekwing.com/resource/api/images/userlogo/student60.jpg";
+    "logo_130" = "http://api.ekwing.com/resource/api/images/userlogo/student130.jpg";
+    "logo_40" = "http://api.ekwing.com/resource/api/images/userlogo/student40.jpg";
+    "logo_60" = "http://api.ekwing.com/resource/api/images/userlogo/student60.jpg";
+    "method_from" = 0;
+    nicename = "\U4f5c\U8bad\U80037";
+    pname = "";
+    "province_id" = 107;
+    ptel = 18567688703;
+    ptype = 1;
+    "school_id" = 22456;
+    section = 2;
+    "student_no" = "";
+    tel = "";
+    times = 1528710429;
+    type = 2;
+    uid = 4427442;
+    "user_growth_counter" =     {
+        "user_credit" = 10;
+        "user_experience" = 0;
+        "user_hongbao" = 0;
+    };
+    username = 44530008;
+    verify = 0;
+    "vip_power" =     {
+        power =         {
+            homework = 1560873599;
+            special = 1560873599;
+            train = 1560873599;
+            "vip_power_comm" = 0;
+        };
+        "users_uid" = 4427442;
+        "vip_type" = "is_cloud";
+    };
+    "vip_status" = 1;
+}

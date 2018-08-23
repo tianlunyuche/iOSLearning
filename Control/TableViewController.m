@@ -83,6 +83,12 @@
     btn.frame =CGRectMake(kScreenWidth -80, 0, 50, 50);
     [btn addTarget:self action:@selector(shareBtnPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    NSString *s = nil;
+    if ([s isKindOfClass:[NSString class]]) {
+        
+    }
+    BOOL is = [s isEqualToString:@""];
 }
 
     
@@ -348,7 +354,7 @@ commitEditingStyle:(UITableViewCellEditingStyle)editingStyle
              @[[ZXDesignModeTableVC class],
                [ZXfmdbVC class],
                [ZXplistVC class],
-             [ZXSwiftVC class]]];
+             [ZXMainBarVC class]]];
 }
 
 - (NSMutableArray <NSMutableArray *> *)tableTitles {
