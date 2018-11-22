@@ -13,6 +13,7 @@
 		2219CBDA21103C71002D3AC6 /* ZXPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219CBD921103C70002D3AC6 /* ZXPeople.swift */; };
 		221D50BC2079BBFB0074C99A /* ZXSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D50BB2079BBFB0074C99A /* ZXSwiftVC.swift */; };
 		22692B332111A70500892173 /* ZXLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22692B322111A70500892173 /* ZXLog.swift */; };
+		22A3B11521A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22A3B11421A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 */; };
 		22BB5D67211042CA003FE884 /* ZXMainBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB5D66211042CA003FE884 /* ZXMainBarVC.swift */; };
 		22BB5D692110431E003FE884 /* ZXNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB5D682110431E003FE884 /* ZXNavigationVC.swift */; };
 		22BB5D6B21104F07003FE884 /* ZXBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB5D6A21104F07003FE884 /* ZXBaseVC.swift */; };
@@ -36,7 +37,6 @@
 		350DB84A1ECCBBD200B21B4A /* TableDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 350DB8491ECCBBD200B21B4A /* TableDecorator.m */; };
 		350DB84D1ECCBC5D00B21B4A /* ChairDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 350DB84C1ECCBC5D00B21B4A /* ChairDecorator.m */; };
 		350DB8501ECCBCAA00B21B4A /* ZXDecorativeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 350DB84F1ECCBCAA00B21B4A /* ZXDecorativeVC.m */; };
-		351500931E5010F300FD4BAB /* 许巍 - 温暖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 351500921E5010F300FD4BAB /* 许巍 - 温暖.mp3 */; };
 		351500EC1E502C4900FD4BAB /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351500EB1E502C4900FD4BAB /* BookModel.m */; };
 		351502D21E50B0D800FD4BAB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351502D11E50B0D800FD4BAB /* TableViewController.m */; };
 		3516C1161E2B312000847A45 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3516C1151E2B312000847A45 /* FirstVC.m */; };
@@ -115,6 +115,7 @@
 		221D50BA2079BBFA0074C99A /* Control-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control-Bridging-Header.h"; sourceTree = "<group>"; };
 		221D50BB2079BBFB0074C99A /* ZXSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSwiftVC.swift; sourceTree = "<group>"; };
 		22692B322111A70500892173 /* ZXLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXLog.swift; sourceTree = "<group>"; };
+		22A3B11421A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "常颖杰-Jason - 南山南（粤语版）.mp3"; sourceTree = "<group>"; };
 		22BB5D66211042CA003FE884 /* ZXMainBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXMainBarVC.swift; sourceTree = "<group>"; };
 		22BB5D682110431E003FE884 /* ZXNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXNavigationVC.swift; sourceTree = "<group>"; };
 		22BB5D6A21104F07003FE884 /* ZXBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXBaseVC.swift; sourceTree = "<group>"; };
@@ -160,7 +161,6 @@
 		350DB84C1ECCBC5D00B21B4A /* ChairDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChairDecorator.m; path = Control/DesignMode/Model/ChairDecorator.m; sourceTree = "<group>"; };
 		350DB84E1ECCBCAA00B21B4A /* ZXDecorativeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXDecorativeVC.h; path = Control/DesignMode/Control/ZXDecorativeVC.h; sourceTree = "<group>"; };
 		350DB84F1ECCBCAA00B21B4A /* ZXDecorativeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXDecorativeVC.m; path = Control/DesignMode/Control/ZXDecorativeVC.m; sourceTree = "<group>"; };
-		351500921E5010F300FD4BAB /* 许巍 - 温暖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "许巍 - 温暖.mp3"; sourceTree = "<group>"; };
 		351500EA1E502C4900FD4BAB /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
 		351500EB1E502C4900FD4BAB /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
 		351502D01E50B0D800FD4BAB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -860,7 +860,7 @@
 				351500EB1E502C4900FD4BAB /* BookModel.m */,
 				35C7978E1E2A389000F69E33 /* Main.storyboard */,
 				35C797911E2A389000F69E33 /* Assets.xcassets */,
-				351500921E5010F300FD4BAB /* 许巍 - 温暖.mp3 */,
+				22A3B11421A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 */,
 				35C797931E2A389000F69E33 /* LaunchScreen.storyboard */,
 				35C797961E2A389000F69E33 /* Info.plist */,
 				35C797851E2A389000F69E33 /* Supporting Files */,
@@ -1127,6 +1127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				350C06091FD2C9AA007121D1 /* userForVistingVCID.plist in Resources */,
+				22A3B11521A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 in Resources */,
 				35C797951E2A389000F69E33 /* LaunchScreen.storyboard in Resources */,
 				35B6F8961FDE8F3900734CC1 /* ZXCollectionViewCell.xib in Resources */,
 				35F43F4C1ECD8635005D757E /* decoratorMode.txt in Resources */,
@@ -1134,7 +1135,6 @@
 				220E0AE62117EEE9004784AA /* test.json in Resources */,
 				35C467731FBC186800475DED /* Data2.plist in Resources */,
 				35C797921E2A389000F69E33 /* Assets.xcassets in Resources */,
-				351500931E5010F300FD4BAB /* 许巍 - 温暖.mp3 in Resources */,
 				2218C1B820FDCEF800435A04 /* ZXViewController.xib in Resources */,
 				35A6510B1F1BB7BC00300753 /* ZXplistVC.storyboard in Resources */,
 				35C797901E2A389000F69E33 /* Main.storyboard in Resources */,
@@ -1174,14 +1174,12 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/TNRadioButtonGroup/TNRadioButtonGroup.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Zhugeio/Zhugeio.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1189,14 +1187,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TNRadioButtonGroup.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zhugeio.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1533,6 +1529,7 @@
 			baseConfigurationReference = 706B401B0722D0896B86AE11 /* Pods-Control.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2K8YQD53SK;
@@ -1556,6 +1553,7 @@
 			baseConfigurationReference = 481A003E61DC829518BC749B /* Pods-Control.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2K8YQD53SK;

@@ -770,7 +770,7 @@ bool isSearch;
 - (void)playNotifySound{
     
     //获取路径
-    NSString *path =[[NSBundle mainBundle] pathForResource:@"许巍 - 温暖" ofType:@"mp3"];
+    NSString *path =[[NSBundle mainBundle] pathForResource:@"常颖杰-Jason - 南山南（粤语版）" ofType:@"mp3"];
     //定义一个 系统声音id
     SystemSoundID soundID;
     //判断路径是否存在

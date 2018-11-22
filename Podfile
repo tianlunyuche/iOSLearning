@@ -1,6 +1,12 @@
 
 
 target 'Control' do
+    
+project '/Volumes/MacData/MacData/projects/paohon-master/Control.xcodeproj'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+
 use_frameworks!
 #
 #    pod 'ReactiveCocoa'
@@ -17,7 +23,7 @@ use_frameworks!
     pod 'TNRadioButtonGroup'
     pod 'Zhugeio'
     pod 'Alamofire'
-    pod 'HandyJSON'
+#    pod 'HandyJSON'
 #    pod 'React'
 #    pod "React/RCTText"
 #    pod "React/RCTActionSheet"

@@ -29,7 +29,7 @@
 #pragma mark - 音频播放器
 - (void)creatMusic{
     ZXLog(@"音频播放");
-    MPMusicPlayerController *MusicVC =[[MPMusicPlayerController alloc] init];
+//    MPMusicPlayerController *MusicVC =[[MPMusicPlayerController alloc] init];
 }
 
 #pragma mark - 视频播放器

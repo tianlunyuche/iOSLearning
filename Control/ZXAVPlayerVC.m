@@ -117,7 +117,7 @@
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
     
     //获取本地资源mp3文件的方法。，文件名 和扩展名
-    NSString* str =[[NSBundle mainBundle] pathForResource:@"许巍 - 温暖" ofType:@"mp3"];
+    NSString* str =[[NSBundle mainBundle] pathForResource:@"常颖杰-Jason - 南山南（粤语版）" ofType:@"mp3"];
     //将字符串转化成 url
     NSURL* urlMusic =[NSURL fileURLWithPath:str];
     //创建音频播放器对象
