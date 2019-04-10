@@ -2,7 +2,7 @@
 //  SDWebImageManager+RWConfig.h
 //  SupplyChain
 //
-//  Created by 刘瑾 on 2016/6/11.
+//  Created by zhaozhuangxin on 2016/6/11.
 //  Copyright © 2016年 Runwise. All rights reserved.
 //
 

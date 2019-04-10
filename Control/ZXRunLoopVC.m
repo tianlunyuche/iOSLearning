@@ -56,8 +56,9 @@ typedef void(^RunloopBlock) (void);
 }
 
 - (void)back{
-    
-    dispatch_cancel(self.runloopTime);
+    if (self.runloopTime) {
+        dispatch_cancel(self.runloopTime);
+    }
 
     [self.navigationController popViewControllerAnimated:YES];
 }

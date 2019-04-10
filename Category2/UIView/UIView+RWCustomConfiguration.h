@@ -2,7 +2,7 @@
 //  UIView+RWCustomConfiguration.h
 //  SupplyChain
 //
-//  Created by 刘瑾 on 2016/3/14.
+//  Created by zhaozhuangxin on 2016/3/14.
 //  Copyright © 2016年 Runwise. All rights reserved.
 //
 

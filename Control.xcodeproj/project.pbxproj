@@ -12,12 +12,14 @@
 		2218C1B820FDCEF800435A04 /* ZXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2218C1B620FDCEF800435A04 /* ZXViewController.xib */; };
 		2219CBDA21103C71002D3AC6 /* ZXPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219CBD921103C70002D3AC6 /* ZXPeople.swift */; };
 		221D50BC2079BBFB0074C99A /* ZXSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D50BB2079BBFB0074C99A /* ZXSwiftVC.swift */; };
+		221DA7AA225DE4DD0068FCC8 /* ZXASIHttpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 221DA7A9225DE4DD0068FCC8 /* ZXASIHttpVC.m */; };
 		22692B332111A70500892173 /* ZXLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22692B322111A70500892173 /* ZXLog.swift */; };
 		22A3B11521A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22A3B11421A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 */; };
 		22BB5D67211042CA003FE884 /* ZXMainBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB5D66211042CA003FE884 /* ZXMainBarVC.swift */; };
 		22BB5D692110431E003FE884 /* ZXNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB5D682110431E003FE884 /* ZXNavigationVC.swift */; };
 		22BB5D6B21104F07003FE884 /* ZXBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB5D6A21104F07003FE884 /* ZXBaseVC.swift */; };
 		22BB5D6D211061D7003FE884 /* ZXPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB5D6C211061D7003FE884 /* ZXPersonVC.swift */; };
+		22DCAB6821AE7F0800F8DA7D /* NSObject+YYParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 354730A01FEC04A3009D17CA /* NSObject+YYParse.m */; };
 		3503DC601EB75FAC008AD79E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3503DC5F1EB75FAC008AD79E /* Social.framework */; };
 		350786DC1ECC0AE60040E238 /* ZXQRcodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 350786DB1ECC0AE60040E238 /* ZXQRcodeVC.m */; };
 		350786DF1ECC0C930040E238 /* ZXCreatMyMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 350786DE1ECC0C930040E238 /* ZXCreatMyMapVC.m */; };
@@ -114,6 +116,8 @@
 		2219CBD921103C70002D3AC6 /* ZXPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXPeople.swift; sourceTree = "<group>"; };
 		221D50BA2079BBFA0074C99A /* Control-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control-Bridging-Header.h"; sourceTree = "<group>"; };
 		221D50BB2079BBFB0074C99A /* ZXSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSwiftVC.swift; sourceTree = "<group>"; };
+		221DA7A8225DE4DD0068FCC8 /* ZXASIHttpVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXASIHttpVC.h; sourceTree = "<group>"; };
+		221DA7A9225DE4DD0068FCC8 /* ZXASIHttpVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXASIHttpVC.m; sourceTree = "<group>"; };
 		22692B322111A70500892173 /* ZXLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXLog.swift; sourceTree = "<group>"; };
 		22A3B11421A64E18001E7927 /* 常颖杰-Jason - 南山南（粤语版）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "常颖杰-Jason - 南山南（粤语版）.mp3"; sourceTree = "<group>"; };
 		22BB5D66211042CA003FE884 /* ZXMainBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXMainBarVC.swift; sourceTree = "<group>"; };
@@ -445,6 +449,39 @@
 				2219CBD921103C70002D3AC6 /* ZXPeople.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		221DA79F225DE2D40068FCC8 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				221DA7A0225DE2D40068FCC8 /* View */,
+				221DA7A1225DE2D40068FCC8 /* Model */,
+				221DA7A2225DE2D40068FCC8 /* Controller */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		221DA7A0225DE2D40068FCC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		221DA7A1225DE2D40068FCC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		221DA7A2225DE2D40068FCC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				221DA7A8225DE4DD0068FCC8 /* ZXASIHttpVC.h */,
+				221DA7A9225DE4DD0068FCC8 /* ZXASIHttpVC.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		350C05FD1FD2BADA007121D1 /* runtime */ = {
@@ -792,6 +829,7 @@
 		35C797791E2A389000F69E33 = {
 			isa = PBXGroup;
 			children = (
+				221DA79F225DE2D40068FCC8 /* ASIHTTPRequest */,
 				2218C1B020FDCEB800435A04 /* CollectionView */,
 				221D50B62079BB9E0074C99A /* Swift */,
 				354730CB1FEC0AB5009D17CA /* SliderTabBarVC */,
@@ -1172,27 +1210,35 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Control/Pods-Control-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ASIHTTPRequest/ASIHTTPRequest.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/TNRadioButtonGroup/TNRadioButtonGroup.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 				"${BUILT_PRODUCTS_DIR}/Zhugeio/Zhugeio.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASIHTTPRequest.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TNRadioButtonGroup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zhugeio.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1242,6 +1288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DCAB6821AE7F0800F8DA7D /* NSObject+YYParse.m in Sources */,
 				350DB84D1ECCBC5D00B21B4A /* ChairDecorator.m in Sources */,
 				35A8B8C01E90D9EE009BBFC5 /* ZXAnnotation.m in Sources */,
 				350DB84A1ECCBBD200B21B4A /* TableDecorator.m in Sources */,
@@ -1265,6 +1312,7 @@
 				3516C1161E2B312000847A45 /* FirstVC.m in Sources */,
 				22BB5D692110431E003FE884 /* ZXNavigationVC.swift in Sources */,
 				22BB5D6D211061D7003FE884 /* ZXPersonVC.swift in Sources */,
+				221DA7AA225DE4DD0068FCC8 /* ZXASIHttpVC.m in Sources */,
 				35D7F6C71ECC4E6B00CB29B1 /* User.m in Sources */,
 				35C4677D1FBC2E8700475DED /* NSScanner+ZX.m in Sources */,
 				350786DF1ECC0C930040E238 /* ZXCreatMyMapVC.m in Sources */,

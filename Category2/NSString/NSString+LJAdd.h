@@ -2,8 +2,8 @@
 //  NSString+LJAdd.h
 //  LJCategories
 //
-//  Created by 刘瑾 on 2016/11/9.
-//  Copyright © 2016年 刘瑾. All rights reserved.
+//  Created by zhaozhuangxin on 2016/11/9.
+//  Copyright © 2016年 zhaozhuangxin. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

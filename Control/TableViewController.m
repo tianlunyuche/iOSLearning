@@ -24,6 +24,8 @@
 #import "ZXCollectionVC.h"
 #import "Control-Swift.h"
 
+#import "NSObject+YYParse.h"
+
 //#import <React/RCTRootView.h>
 
 @interface TableViewController ()
@@ -89,6 +91,51 @@
         
     }
     BOOL is = [s isEqualToString:@""];
+    
+//    ZXThreadVC *vc = [ZXThreadVC new];
+    UIAlertAction *vc = [UIAlertAction actionWithTitle:@"nih" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+
+    }];
+    Class cls = vc.class;
+    NSLog(@"ZXThreadVC time1: %@", vc.description);
+    
+    unsigned int count = 0;
+    Ivar *members = class_copyIvarList(cls, &count);
+    for (int i = 0; i < count; i++) {
+        Ivar var = members[i];
+        const char *varName = ivar_getName(var);
+        const char *memberType = ivar_getTypeEncoding(var); //变量类型
+        NSLog(@"memberName = %s ; type = %s ", varName ,memberType);
+        
+        NSString *str = [NSString stringWithUTF8String:varName];
+        if ([str containsString:@"imageView"]) {
+            NSLog(@"包含了");
+        }
+    }
+
+    //更改私有变量
+    Ivar m_member = members[1];
+    object_setIvar(vc, m_member, @"");
+    NSLog(@"ZXThreadVC time2: %@", vc.description);
+    free(members);
+    
+    [vc setValue:[UIColor colorWithWhite:0 alpha:1] forPrivateKey:@"titleTextColor"];
+    [vc setValue:nil forPrivateKey:@"alertController"];
+    
+    //
+    NSString *strA = @"字符";
+    NSNumber *num = @20;
+    NSArray *arr = @[@"shu1",@"shu2"];
+    SEL sel = NSSelectorFromString(@"ObjcMsgSendWithString:withNum:withArray:");
+    ((void (*) (id, SEL, NSString *, NSNumber *, NSArray *)) objc_msgSend)(self, sel, strA, num, arr);
+    
+    [self performSelector:@selector(ObjcMsgSendWithString:withNum:withArray:) withObjects:@[strA, num, arr]];
+}
+
+- (void)ObjcMsgSendWithString:(NSString *)strA
+                      withNum:(NSNumber *)num
+                    withArray:(NSArray *)arr {
+    NSLog(@"ObjcMsgSendWithString被调用了");
 }
 
     
@@ -354,7 +401,8 @@ commitEditingStyle:(UITableViewCellEditingStyle)editingStyle
              @[[ZXDesignModeTableVC class],
                [ZXfmdbVC class],
                [ZXplistVC class],
-             [ZXMainBarVC class]]];
+               [ZXMainBarVC class]],
+             @[NSClassFromString(@"ZXASIHttpVC")]];
 }
 
 - (NSMutableArray <NSMutableArray *> *)tableTitles {
@@ -369,6 +417,7 @@ commitEditingStyle:(UITableViewCellEditingStyle)editingStyle
              @[@"设计模式",
                @"FMDB数据库",
                @"Plist",
-               @"Swift"]]];
+               @"Swift"],
+             @[@"ASIHTTPRequest"]]];
 };
 @end

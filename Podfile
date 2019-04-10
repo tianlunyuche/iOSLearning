@@ -15,6 +15,7 @@ use_frameworks!
     pod 'Masonry'
     pod 'MJRefresh', '~> 3.1.12’
     pod 'YYKit'
+    pod 'YYModel'
     pod 'IQKeyboardManager'
     pod 'AFNetworking', '~> 3.0'
 #    pod 'MBProgressHUD',’~> 1.0.0’
@@ -23,6 +24,12 @@ use_frameworks!
     pod 'TNRadioButtonGroup'
     pod 'Zhugeio'
     pod 'Alamofire'
+    
+#    plugin 'cocoapods-repo-svn', :sources => [
+#        'svn://172.17.20.27/poseidon/ekwing_Student_client/trunk/podspecTest/EKWBaseLogic'
+#    ]
+#    pod 'EKWBaseLogic', '~> 0.0.1'
+    pod 'ASIHTTPRequest'
 #    pod 'HandyJSON'
 #    pod 'React'
 #    pod "React/RCTText"

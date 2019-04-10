@@ -2,7 +2,7 @@
 //  UITableView+RWConfig.h
 //  SupplyChain
 //
-//  Created by 刘瑾 on 2016/6/21.
+//  Created by zhaozhuangxin on 2016/6/21.
 //  Copyright © 2016年 Runwise. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  UIViewController+LJCustomConfiguration.h
 //  SupplyChain
 //
-//  Created by 刘瑾 on 2016/12/6.
+//  Created by zhaozhuangxin on 2016/12/6.
 //  Copyright © 2016年 libin. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  NSString+RWCustomConfiguration.m
 //  SupplyChain
 //
-//  Created by 刘瑾 on 2016/3/13.
+//  Created by zhaozhuangxin on 2016/3/13.
 //  Copyright © 2016年 Runwise. All rights reserved.
 //
 

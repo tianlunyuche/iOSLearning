@@ -2,7 +2,7 @@
 //  NSArray+RWCustomConfiguration.m
 //  SupplyChain
 //
-//  Created by 刘瑾 on 2016/1/10.
+//  Created by zhaozhuangxin on 2016/1/10.
 //  Copyright © 2016年 libin. All rights reserved.
 //
 
